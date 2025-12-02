@@ -1,0 +1,51 @@
+# Git 相关
+.git
+.gitignore
+.gitattributes
+
+# Python 缓存
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# 虚拟环境
+venv
+env
+ENV
+
+# IDE 配置
+.vscode
+.idea
+*.swp
+*.swo
+
+# 日志和临时文件
+*.log
+temp/
+logs/
+*.tmp
+
+# Cookies 和配置（这些会通过 volume 挂载）
+camoufox-py/cookies/*
+camoufox-py/logs/*
+
+# Docker 相关
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 文档
+*.md
+README.md
+
+# 测试
+tests/
+test_*.py
+*_test.py
